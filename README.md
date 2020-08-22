@@ -4,7 +4,7 @@ A working demo video of single quadrotor can be seen <a href="https://www.youtub
 
 A working demo video of quadrotor swarm example can be seen <a href="https://www.youtube.com/watch?v=dvm-k72fsEQ&t=5s">here</a>
 
-# Dependencies
+### Dependencies
 
 ```
 sudo apt-get install ros-kinetic-geographic-info
@@ -63,7 +63,7 @@ Start the teleop node:
 rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 ```
 
-# Usage
+### Usage
 ```
 Reading from the keyboard  and Publishing to Twist!
 ---------------------------
