@@ -22,8 +22,7 @@ mkdir -p ~/catkin_ws/src
 
 cd catkin_ws/src
 
-git clone https://github.com/Marslanali/quadrotor-simulation
- 
+git -b hector_quadrotor  clone https://github.com/Marslanali/cpp-uav-simulations.git 
 catkin_make
 ```
 
