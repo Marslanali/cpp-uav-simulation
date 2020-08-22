@@ -2,6 +2,10 @@
 
 hector_quadrotor for UAVs swarm simulation
 
+A working demo video of single quadrotor can be seen <a href="https://www.youtube.com/watch?v=34BXZDyv9D4&t=5s">here</a>
+
+A working demo video of quadrotor swarm example can be seen <a href="https://www.youtube.com/watch?v=dvm-k72fsEQ&t=5s">here</a>
+
 # Dependencies
 
 sudo apt-get install ros-kinetic-geographic-info
@@ -35,7 +39,7 @@ In a new terminal
 ```
 rosservice call /enable_motors "enable: true"
 ```
-A working demo video can be found <a href="https://www.youtube.com/watch?v=34BXZDyv9D4&t=5s">here</a>
+
 
 ### Simulation screenshots
 
@@ -99,7 +103,7 @@ Load the Gazebo simulator in separate terminals using the following commands:
 roslaunch hector_quadrotor_demo uav_swarm_outdoor_flight_gazebo.launch
 ```
 
-A working demo video can be found <a href="https://www.youtube.com/watch?v=dvm-k72fsEQ&t=5s">here</a>
+
 
 ### Simulation screenshots
 
