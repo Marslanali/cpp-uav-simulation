@@ -11,7 +11,7 @@ $ catkin_init_workspace  # initialize your catkin workspace
 $ cd ~/catkin_ws/
 $ catkin init
 $ cd ~/catkin_ws/src
-$ git clone -b RotorS git clone https://github.com/Marslanali/cpp-uav-simulations.git 
+$ git clone -b RotorS https://github.com/Marslanali/cpp-uav-simulations.git 
 ```
 
 Build your workspace with python_catkin_tools (therefore you need python_catkin_tools)
