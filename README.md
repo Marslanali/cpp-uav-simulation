@@ -17,7 +17,7 @@ After git clone `https://github.com/Marslanali/cpp-uav-simulations.git`. Please 
 
     * The `README.md` for this branch can be seen <a href="https://github.com/Marslanali/cpp-uav-simulations/tree/hector_quadrotor">here</a>. Please visit the <a href="https://github.com/gsilano/CrazyS">here</a> for more information & original package.
 
-* For **<a href="https://github.com/Marslanali/cpp-uav-simulations/tree/hector_quadrotor">Parrot Bebop 2</a>** `git clone -b Parrot-bebop2 https://github.com/Marslanali/cpp-uav-simulations.git `. 
+* For **<a href="https://github.com/Marslanali/cpp-uav-simulations/tree/hector_quadrotor">Parrot Bebop 2</a>** `git clone -b Parrot-bebop2 https://github.com/Marslanali/cpp-uav-simulations.git `
 
     * The `README.md` for this branch can be seen  <a href="https://github.com/Marslanali/cpp-uav-simulations/tree/Parrot-bebop2">here</a>. Please visit the <a href="https://github.com/gsilano/BebopS">here</a> for more information & original package.
 
