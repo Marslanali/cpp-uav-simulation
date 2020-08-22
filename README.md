@@ -1,9 +1,5 @@
 # hector_quadrotor_gazebo_simulation
 
-A working demo video of single quadrotor can be seen <a href="https://www.youtube.com/watch?v=34BXZDyv9D4&t=5s">here</a>
-
-A working demo video of quadrotor swarm example can be seen <a href="https://www.youtube.com/watch?v=dvm-k72fsEQ&t=5s">here</a>
-
 # Dependencies
 
 ```
