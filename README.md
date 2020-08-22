@@ -5,7 +5,7 @@ After git clone `https://github.com/Marslanali/cpp-uav-simulations.git`. Please 
 
 * For **<a href="https://github.com/Marslanali/cpp-uav-simulations/tree/hector_quadrotor">hector_quadrotor</a>** `git clone https://github.com/Marslanali/cpp-uav-simulations.git -b hector_quadrotor`. A working demo videos can be seen here <a href="https://www.youtube.com/watch?v=34BXZDyv9D4"> demo1</a>, <a href="https://www.youtube.com/watch?v=dvm-k72fsEQ"> demo2</a> 
 
-    * The `README.md` for this branch can be seen <a href="https://github.com/Marslanali/cpp-uav-simulations/tree/hector_quadrotor">here</a>. Please visit the <a href="http://wiki.ros.org/hector_quadrotor">hector_quadrotor here</a> for more information.
+    * The `README.md` for this branch can be seen <a href="https://github.com/Marslanali/cpp-uav-simulations/tree/hector_quadrotor-develop">here</a>. Please visit the <a href="http://wiki.ros.org/hector_quadrotor">hector_quadrotor here</a> for more information.
 
 
 * For **<a href="https://github.com/Marslanali/cpp-uav-simulations/tree/hector_quadrotor">RotorS</a>** `git clone https://github.com/Marslanali/cpp-uav-simulations.git -b RotorS`. A working demo videos can be seen here <a href="https://www.youtube.com/watch?v=P3mOm3eQikU"> demo1</a>, <a href="https://www.youtube.com/watch?v=ZiEZlAysI3U"> demo2</a> 
