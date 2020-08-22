@@ -1,8 +1,0 @@
-prefix=/home/arslanali/quadrotor-simulation/hector_quadrotor_opencv/build/devel
-
-Name: hector_quadrotor_opencv
-Description: Description of hector_quadrotor_opencv
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: roscpp std_msgs message_runtime cv_bridge sensor_msgs
