@@ -1,138 +1,28 @@
-# hector_quadrotor_gazebo_simulation
+# cpp-uav-simulations
+UAV gazebo simualtions
 
-A working demo video of single quadrotor can be seen <a href="https://www.youtube.com/watch?v=34BXZDyv9D4&t=5s">here</a>
+After git clone `https://github.com/Marslanali/cpp-uav-simulations.git`. Please checkout to individual branches.
 
-A working demo video of quadrotor swarm example can be seen <a href="https://www.youtube.com/watch?v=dvm-k72fsEQ&t=5s">here</a>
+* For **<a href="https://github.com/Marslanali/cpp-uav-simulations/tree/hector_quadrotor">hector_quadrotor</a>** `git checkout hector_quadrotor` or `git clone https://github.com/Marslanali/cpp-uav-simulations.git -b hector_quadrotor`. A working demo videos can be seen here <a href="https://www.youtube.com/watch?v=34BXZDyv9D4"> demo1</a>. <a href="https://www.youtube.com/watch?v=dvm-k72fsEQ"> demo2</a> 
 
-### Dependencies
-
-```
-sudo apt-get install ros-kinetic-geographic-info
-sudo apt-get install ros-kinetic-ros-control
-sudo apt-get install ros-kinetic-gazebo-ros-control
-sudo apt-get install ros-kinetic-joy
-sudo apt-get install ros-kinetic-teleop-twist-keyboard
-```
-
-### complining the package
-In a new terminal 
-
-```
-mkdir -p ~/catkin_ws/src
-
-cd catkin_ws/src
-
-git clone https://github.com/Marslanali/quadrotor-simulation
- 
-catkin_make
-```
-
-### Simulating UAV in Gazebo
-Load the Gazebo simulator in separate terminals using the following commands:
-
-```
-roslaunch hector_quadrotor_demo uav_outdoor_flight_gazebo.launch
-```
-
-In a new terminal
-
-```
-rosservice call /enable_motors "enable: true"
-```
+    * This branch can be seen <a href="https://github.com/Marslanali/cpp-uav-simulations/tree/hector_quadrotor">here</a>. Please visit the <a href="http://wiki.ros.org/hector_quadrotor">hector_quadrotor here</a> for more information.
 
 
-### Simulation screenshots
+* For **<a href="https://github.com/Marslanali/cpp-uav-simulations/tree/hector_quadrotor">RotorS</a>** `git checkout RotorS` or `git clone https://github.com/Marslanali/cpp-uav-simulations.git -b RotorS`. A working demo videos can be seen here <a href="https://www.youtube.com/watch?v=P3mOm3eQikU"> demo1</a>. <a href="https://www.youtube.com/watch?v=ZiEZlAysI3U"> demo2</a> 
 
-<p align="left">
-   <img src="screenshots/uav.jpg" width ="500" height="400"/>
-  <br/>
-  Fig. 1. uav in empty gazebo world
-</p>
+    * This branch can be seen <a href="https://github.com/Marslanali/cpp-uav-simulations/tree/RotorS">here</a>. Please visit the <a href="https://github.com/Marslanali/cpp-uav-simulations/tree/Parrot-bebop2">here</a> for more information.
 
 
-#### Publishing cmd vel:
+* For **<a href="https://github.com/Marslanali/cpp-uav-simulations/tree/hector_quadrotor">CrazyS</a>** `git checkout CrazyS` or `git clone https://github.com/Marslanali/cpp-uav-simulations.git -b CrazyS`.A working demo videos can be seen here <a href="https://www.youtube.com/watch?v=rCAztwEpVbI"> demo1</a>. <a href="https://www.youtube.com/watch?v=-goKJi8AMOM"> demo2</a> 
 
-```
-rostopic pub -r 10 /cmd_vel geometry_msgs/Twist  '{linear:  {x: 0, y: 0.0, z: 1.0}, angular: {x: 0.0,y: 0.0,z: 0.0}}'
-```
+    * This branch can be seen <a href="https://github.com/Marslanali/cpp-uav-simulations/tree/hector_quadrotor">here</a>. 
 
-#### Running keyboard teleop:
 
-Start the teleop node:
-```
-rosrun teleop_twist_keyboard teleop_twist_keyboard.py
-```
+* For **<a href="https://github.com/Marslanali/cpp-uav-simulations/tree/hector_quadrotor">Parrot Bebop 2</a>** `git checkout Parrot-bebop2` or `git clone https://github.com/Marslanali/cpp-uav-simulations.git -b Parrot-bebop2`. A working demo videos can be seen here <a href="https://www.youtube.com/watch?v=gKAS_orTMyg">demo1</a>.
 
-### Usage
-```
-Reading from the keyboard  and Publishing to Twist!
----------------------------
-Moving around:
-   u    i    o
-   j    k    l
-   m    ,    .
-
-For Holonomic mode (strafing), hold down the shift key:
----------------------------
-   U    I    O
-   J    K    L
-   M    <    >
-
-t : up (+z)
-b : down (-z)
-
-anything else : stop
-
-q/z : increase/decrease max speeds by 10%
-w/x : increase/decrease only linear speed by 10%
-e/c : increase/decrease only angular speed by 10%
-
-CTRL-C to quit
-```
-
-### Getting RGB image to display
-
-```
-rosrun image_view image_view image:=/front_cam/camera/image
-```
-
-### Simulating Swarm of UAV in Gazebo
-Load the Gazebo simulator in separate terminals using the following commands:
-
-```
-roslaunch hector_quadrotor_demo uav_swarm_outdoor_flight_gazebo.launch
-```
-
-### Simulation screenshots
-
-<p align="left">
-   <img src="screenshots/swarm1.jpg" width ="400" height="400"/>
-   <img src="screenshots/swarm2.jpg" width ="400" height="400"/>
-  <br/>
-  Fig. 1. multiple uavs in gazebo
-</p>
+    * This branch can be seen  <a href="https://github.com/Marslanali/cpp-uav-simulations/tree/Parrot-bebop2">here</a>. 
 
 
 
-### Enabling motors
 
-```
-cd ~/quadrotor-simulation
-chmod +x motors_enables_uav_swarm.sh
-./motors_enables_uav_swarm.sh
-```
-
-#### controling uav1 by publishing /uav1/cmd_vel:
-
-```
-rostopic pub -r 10 /uav1/cmd_vel geometry_msgs/Twist  '{linear:  {x: 0, y: 0.0, z: 1.0}, angular: {x: 0.0,y: 0.0,z: 0.0}}'
-```
-
-
-### Running keyboard teleop for swarm of uav
-
-```
-cd ~/quadrotor-simulation/hector_quadrotor/teleop_twist_keyboard
-rosrun teleop_twist_keyboard teleop_twist_keyboard.py
-```
 
