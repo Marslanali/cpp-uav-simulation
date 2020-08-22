@@ -5,7 +5,7 @@ After git clone `https://github.com/Marslanali/cpp-uav-simulations.git`. Please 
 
 * For **<a href="https://github.com/Marslanali/cpp-uav-simulations/tree/hector_quadrotor">hector_quadrotor</a>** `git checkout hector_quadrotor` or `git clone https://github.com/Marslanali/cpp-uav-simulations.git -b hector_quadrotor`.
 
-    * This branch can be seen <a href="https://github.com/Marslanali/cpp-uav-simulations/tree/hector_quadrotor">here</a>. Please visit the <a href="http://wiki.ros.org/hector_quadrotor">here</a> for more information.
+    * This branch can be seen <a href="https://github.com/Marslanali/cpp-uav-simulations/tree/hector_quadrotor">here</a>. Please visit the <a href="http://wiki.ros.org/hector_quadrotor">hector_quadrotor here</a> for more information.
 
 * For **<a href="https://github.com/Marslanali/cpp-uav-simulations/tree/hector_quadrotor">RotorS</a>** `git checkout RotorS` or `git clone https://github.com/Marslanali/cpp-uav-simulations.git -b RotorS`.
 
