@@ -1,10 +1,5 @@
-# cpp-uav-simulations
+# Rotors UAV gazebo simualtions
 
-## Rotors UAV gazebo simualtions
-
-
-<<<<<<< HEAD
-=======
 ```
 $ mkdir -p ~/catkin_ws/src
 $ cd ~/catkin_ws/src
@@ -28,4 +23,3 @@ Add sourcing to your .bashrc file
 $ echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
 $ source ~/.bashrc
 ```
->>>>>>> fa758e29eb0f182072442a7a923753a4b747238d
