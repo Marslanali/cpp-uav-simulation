@@ -1,27 +1,28 @@
 # cpp-uav-simulations
 
-After git clone `https://github.com/Marslanali/cpp-uav-simulations.git`. Please checkout to individual branches or clone individual branch. 
-
-* For **<a href="https://github.com/Marslanali/cpp-uav-simulations/tree/hector_quadrotor-develop">hector_quadrotor</a>** `git clone  -b hector_quadrotor https://github.com/Marslanali/cpp-uav-simulations.git`. 
-
-    * The `README.md` for this branch can be seen <a href="https://github.com/Marslanali/cpp-uav-simulations/tree/hector_quadrotor-develop">here</a>. Please visit  here <a href="http://wiki.ros.org/hector_quadrotor">hector_quadrotor </a> for more information & original package.
-
+After git clone `https://github.com/Marslanali/cpp-uav-simulations.git`. Please checkout to individual branches or clone individual branch.
 
 * For **<a href="https://github.com/Marslanali/cpp-uav-simulations/tree/RotorS-develop">RotorS</a>** `git clone  -b RotorS https://github.com/Marslanali/cpp-uav-simulations.git`.
 
     * The `README.md` for this branch can be seen <a href="https://github.com/Marslanali/cpp-uav-simulations/tree/RotorS">here</a>. Please visit <a href="https://github.com/ethz-asl/rotors_simulator">here</a> for more information & original package.
 
 
+* For **<a href="https://github.com/Marslanali/cpp-uav-simulations/tree/hector_quadrotor-develop">hector_quadrotor</a>** `git clone  -b hector_quadrotor https://github.com/Marslanali/cpp-uav-simulations.git`.
+
+    * The `README.md` for this branch can be seen <a href="https://github.com/Marslanali/cpp-uav-simulations/tree/hector_quadrotor-develop">here</a>. Please visit  here <a href="http://wiki.ros.org/hector_quadrotor">hector_quadrotor </a> for more information & original package.
+
+
 * For **<a href="https://github.com/Marslanali/cpp-uav-simulations/tree/hector_quadrotor">CrazyS</a>** `git clone  -b CrazyS https://github.com/Marslanali/cpp-uav-simulations.git`.
 
     * The `README.md` for this branch can be seen <a href="https://github.com/Marslanali/cpp-uav-simulations/tree/hector_quadrotor">here</a>. Please visit the <a href="https://github.com/gsilano/CrazyS">here</a> for more information & original package.
+
 
 * For **<a href="https://github.com/Marslanali/cpp-uav-simulations/tree/hector_quadrotor">Parrot Bebop 2</a>** `git clone -b Parrot-bebop2 https://github.com/Marslanali/cpp-uav-simulations.git `
 
     * The `README.md` for this branch can be seen  <a href="https://github.com/Marslanali/cpp-uav-simulations/tree/Parrot-bebop2">here</a>. Please visit the <a href="https://github.com/gsilano/BebopS">here</a> for more information & original package.
 
 
-## RotorS gazebo octomap simualtions
+## RotorS gazebo OctoMap simulations
 
 If you don't have ROS workspace yet you can do so by
 
@@ -32,7 +33,7 @@ $ catkin_init_workspace  # initialize your catkin workspace
 $ cd ~/catkin_ws/
 $ catkin init
 $ cd ~/catkin_ws/src
-$ git clone -b RotorS-octomap https://github.com/Marslanali/cpp-uav-simulations.git 
+$ git clone -b RotorS-octomap https://github.com/Marslanali/cpp-uav-simulations.git
 
 ```
 
@@ -93,7 +94,7 @@ to:
 <remap from="cloud_in" to="/firefly/vi_sensor/camera_depth/depth/points" />
 ```
 
-## Running the Simulation
+## Running the simulation
 
 Run the following three lines in separate terminal windows. This opens up Gazebo, Rviz and an octomap server.
 
@@ -107,5 +108,3 @@ In Rviz, change the field `'Fixed Frame'` from `'map'` to `'world'` in the top l
 Now you should see a part of the floor.
 
 In the Gazebo window, insert a cube in front of the red rotors and you should see it in Rviz.
-
-
