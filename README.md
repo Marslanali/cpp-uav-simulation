@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 # cpp-uav-simulations
-UAV gazebo simualtions
 
 After git clone `https://github.com/Marslanali/cpp-uav-simulations.git`. Please checkout to individual branches or clone individual branch. 
 
@@ -23,9 +21,7 @@ After git clone `https://github.com/Marslanali/cpp-uav-simulations.git`. Please 
     * The `README.md` for this branch can be seen  <a href="https://github.com/Marslanali/cpp-uav-simulations/tree/Parrot-bebop2">here</a>. Please visit the <a href="https://github.com/gsilano/BebopS">here</a> for more information & original package.
 
 
-
-=======
-# RotorS gazebo octomap simualtions
+## RotorS gazebo octomap simualtions
 
 If you don't have ROS workspace yet you can do so by
 
@@ -54,7 +50,7 @@ $ echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
 $ source ~/.bashrc
 ```
 
-### Install the OctoMap library:
+## Install the OctoMap library:
 
 The OctoMap library is an open source library for generating volumetric 3D environment models from sensor data. This model data can then be used by a drone for navigation and obstacle avoidance.
 
@@ -97,7 +93,7 @@ to:
 <remap from="cloud_in" to="/firefly/vi_sensor/camera_depth/depth/points" />
 ```
 
-### Running the Simulation
+## Running the Simulation
 
 Run the following three lines in separate terminal windows. This opens up Gazebo, Rviz and an octomap server.
 
@@ -111,6 +107,5 @@ In Rviz, change the field `'Fixed Frame'` from `'map'` to `'world'` in the top l
 Now you should see a part of the floor.
 
 In the Gazebo window, insert a cube in front of the red rotors and you should see it in Rviz.
->>>>>>> RotorS-octomap
 
 
