@@ -1,4 +1,0 @@
-controller_list:
-  - name: fake_firefly_base_controller
-    joints:
-      - virtual_joint

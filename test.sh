@@ -1,4 +1,4 @@
-rostopic pub /firefly/command/trajectory trajectory_msgs/MultiDOFJointTrajectory "header:
+rostopic pub /firefly3/command/trajectory trajectory_msgs/MultiDOFJointTrajectory "header:
   seq: 0
   stamp:
     secs: 0
@@ -9,8 +9,8 @@ joint_names:
 points:
 - transforms:
   - translation:
-      x: 1.0
-      y: 1.0
+      x: -1.0
+      y: -1.0
       z: 1.0
     rotation:
       x: 0.0

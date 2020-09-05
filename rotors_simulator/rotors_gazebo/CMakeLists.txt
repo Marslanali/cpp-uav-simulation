@@ -28,12 +28,18 @@ add_executable(hovering_example src/hovering_example.cpp)
 target_link_libraries(hovering_example ${catkin_LIBRARIES})
 add_dependencies(hovering_example ${catkin_EXPORTED_TARGETS})
 
+
+add_executable(waypoint_publisher_flocking src/waypoint_publisher_flocking.cpp)
+target_link_libraries(waypoint_publisher_flocking ${catkin_LIBRARIES})
+add_dependencies(waypoint_publisher_flocking ${catkin_EXPORTED_TARGETS})
+
+
 foreach(dir launch models resource worlds)
    install(DIRECTORY ${dir}/
       DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/${dir})
 endforeach(dir)
 
-install(TARGETS waypoint_publisher waypoint_publisher_file hovering_example
+install(TARGETS waypoint_publisher waypoint_publisher_file hovering_example waypoint_publisher_flocking
   ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
   LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
   RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
