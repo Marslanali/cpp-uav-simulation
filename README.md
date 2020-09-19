@@ -1,6 +1,5 @@
-# Rotors UAV gazebo simualtions
+# Rotors UAV gazebo simualtion
 
-<<<<<<< HEAD
 After git clone `https://github.com/Marslanali/cpp-uav-simulations.git`. Please checkout to individual branches or clone individual branch.
 
 * For **<a href="https://github.com/Marslanali/cpp-uav-simulations/tree/RotorS-develop">RotorS</a>** `git clone  -b RotorS https://github.com/Marslanali/cpp-uav-simulations.git`.
@@ -23,12 +22,10 @@ After git clone `https://github.com/Marslanali/cpp-uav-simulations.git`. Please 
     * The `README.md` for this branch can be seen  <a href="https://github.com/Marslanali/cpp-uav-simulations/tree/Parrot-bebop2">here</a>. Please visit the <a href="https://github.com/gsilano/BebopS">here</a> for more information & original package.
 
 
-## RotorS gazebo OctoMap simulations
+## RotorS gazebo OctoMap simulation
 
 If you don't have ROS workspace yet you can do so by
 
-=======
->>>>>>> RotorS-Nav-2d
 ```
 $ mkdir -p ~/catkin_ws/src
 $ cd ~/catkin_ws/src
@@ -53,7 +50,6 @@ Add sourcing to your .bashrc file
 $ echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
 $ source ~/.bashrc
 ```
-<<<<<<< HEAD
 
 ## Install the OctoMap library:
 
@@ -112,5 +108,4 @@ In Rviz, change the field `'Fixed Frame'` from `'map'` to `'world'` in the top l
 Now you should see a part of the floor.
 
 In the Gazebo window, insert a cube in front of the red rotors and you should see it in Rviz.
-=======
->>>>>>> RotorS-Nav-2d
+
