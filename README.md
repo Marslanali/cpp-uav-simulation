@@ -1,4 +1,5 @@
-# UAV simulations: RotorS, Hector Quadrotors, Crazyflie 2.1, and Parrot Bebop2
+## UAV Simulations:
+-RotorS, Hector Quadrotors, Crazyflie 2.1, and Parrot Bebop2
 
 After git clone `https://github.com/Marslanali/cpp-uav-simulations.git`. Checkout to individual branches or clone individual branch.
 
