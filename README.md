@@ -4,7 +4,7 @@ After git clone `https://github.com/Marslanali/cpp-uav-simulations.git`. Checkou
 
 * For **<a href="https://github.com/Marslanali/cpp-uav-simulations/tree/RotorS-develop">RotorS</a>** `git clone  -b RotorS https://github.com/Marslanali/cpp-uav-simulations.git`.
 
-    * The `README.md` for this branch can be seen <a href="https://github.com/Marslanali/cpp-uav-simulations/tree/RotorS">here</a>. Please visit <a href="https://github.com/ethz-asl/rotors_simulator">here</a> for more information & original package.
+    * The `README.md` for this branch can be seen <a href="https://github.com/Marslanali/cpp-uav-simulations/tree/RotorS-develop">here</a>. Please visit <a href="https://github.com/ethz-asl/rotors_simulator">here</a> for more information & original package.
     
 
 * For **<a href="https://github.com/Marslanali/cpp-uav-simulations/tree/hector_quadrotor-develop">hector_quadrotor</a>** `git clone  -b hector_quadrotor https://github.com/Marslanali/cpp-uav-simulations.git`.
